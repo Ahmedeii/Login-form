@@ -1,0 +1,119 @@
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("images/bg-intro-desktop.png");
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 230px 100px 230px;
+}
+.content {
+  width: 550px;
+  height: 299px;
+  color: white;
+}
+.content h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.content p {
+  font-size: 12px;
+}
+form {
+  background-color: white;
+  border-radius: 10px;
+  width: 440px;
+  height: 400px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  text-align: center;
+}
+form input {
+  width: 320px;
+  height: 45px;
+  margin: 12px 0px;
+  border-radius: 4px;
+  outline-style: none;
+  border: 1px solid gray;
+  padding: 0px 20px;
+  font-size: 12px;
+  
+}
+form input:hover {
+  border: 1px solid hsl(248, 32%, 49%);
+}
+button {
+  text-transform: uppercase;
+  background-color: hsl(154, 59%, 51%);
+  outline-style: none;
+  border: 1px solid hsl(154, 59%, 51%);
+  color: white;
+  padding: 14px 100px;
+  margin: 12px;
+  border-radius: 4px;
+}
+form p {
+  font-size: 10px;
+  color: hsl(246, 25%, 77%);
+}
+form span {
+  color: hsl(0, 100%, 74%);
+}
+.else .p {
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.else .p span {
+  color: hsl(246, 25%, 77%);
+}
+
+.inputf {
+  position: relative;
+}
+
+.myicon {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  color: hsl(0, 100%, 74%);
+  display: none;
+}
+
+.pa {
+  width: 10px;
+  color: hsl(0, 100%, 74%);
+  font-size: x-small;
+  margin: 0px;
+
+  position: absolute;
+  top: 60px;
+  right: 12px;
+  width: 200px;
+  display: none;
+}
+
+.fa {
+  position: absolute;
+  top: 28px;
+  right: 50px;
+  color: hsl(0, 100%, 74%);
+}
+
+.field.error .pa {
+  display: block;
+}
+
+.field.error .myicon {
+  display: block;
+}
+.field.error input {
+  border: 1px solid hsl(0, 100%, 74%);
+}
