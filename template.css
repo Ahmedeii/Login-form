@@ -32,6 +32,7 @@ form {
   margin-bottom: 60px;
   padding-top: 20px;
   text-align: center;
+
 }
 form input {
   width: 320px;
@@ -74,6 +75,7 @@ form span {
   font-size: 12px;
   min-width: 400px;
   margin-bottom: 8px;
+
 }
 .else .p span {
   color: hsl(246, 25%, 77%);
@@ -136,6 +138,7 @@ form span {
   
 .else{
   text-align: center;
+
 }
 
 .else .p{
@@ -148,11 +151,16 @@ form span {
   display: block;
 }
 .else .access{
-  font-size: large;
+  font-size: medium;
 }
+
+.else .access span{
+  display: block;
+}
+  
 form{
   display: inline-block;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
   
@@ -164,5 +172,4 @@ text-align: center;
 .content p{
 font-size: medium;
 }
-  
 }
